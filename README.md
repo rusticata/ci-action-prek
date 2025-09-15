@@ -29,5 +29,5 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - id: prek
-        uses: rusticata/ci-action-prek@master
+        uses: rusticata/ci-action-prek@v1
 ```
