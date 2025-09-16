@@ -19,7 +19,7 @@ runs:
       id: cache
       with:
         path: ~/.cache/prek
-        key: ${{ runner.os }}-${{ hashFiles('Cargo.lock') }}
+        key: prek-${{ runner.os }}-${{ hashFiles('Cargo.lock') }}
     - name: Run prek
       shell: bash
       run: prek --all-files --verbose --hook-stage manual
