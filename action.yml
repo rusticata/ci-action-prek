@@ -4,7 +4,7 @@ description: 'Install and run prek checks'
 inputs:
   prek-version:
     description: 'prek version to use'
-    default: "0.2.0"
+    default: "0.2.1"
 runs:
   using: "composite"
   steps:
